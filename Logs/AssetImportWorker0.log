@@ -1,0 +1,1112 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lenovo/Desktop/Sprite
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50254
+Successfully changed project path to: C:/Users/Lenovo/Desktop/Sprite
+C:/Users/Lenovo/Desktop/Sprite
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8292] Host "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 3581266612 [EditorId] 3581266612 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CHTCMJO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8292] Host "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 3581266612 [EditorId] 3581266612 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CHTCMJO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Desktop/Sprite/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.4642
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.124204 seconds.
+- Loaded All Assemblies, in  4.607 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.681 seconds
+Domain Reload Profiling: 8270ms
+	BeginReloadAssembly (1088ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (563ms)
+	RebuildNativeTypeToScriptingClass (137ms)
+	initialDomainReloadingComplete (777ms)
+	LoadAllAssembliesAndSetupDomain (2019ms)
+		LoadAssemblies (1072ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1942ms)
+			TypeCache.Refresh (1934ms)
+				TypeCache.ScanAssembly (1811ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (3685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2841ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (133ms)
+			SetLoadedEditorAssemblies (59ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (2001ms)
+			ProcessInitializeOnLoadMethodAttributes (614ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.356 seconds
+Refreshing native plugins compatible for Editor in 10.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.736 seconds
+Domain Reload Profiling: 8069ms
+	BeginReloadAssembly (1061ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (336ms)
+	RebuildNativeTypeToScriptingClass (91ms)
+	initialDomainReloadingComplete (340ms)
+	LoadAllAssembliesAndSetupDomain (4503ms)
+		LoadAssemblies (2118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2926ms)
+			TypeCache.Refresh (2863ms)
+				TypeCache.ScanAssembly (2819ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (896ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 14.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (56.8 KB). Loaded Objects now: 3911.
+Memory consumption went from 122.8 MB to 122.7 MB.
+Total: 10.871000 ms (FindLiveObjects: 0.648900 ms CreateObjectMapping: 0.303500 ms MarkObjects: 9.732200 ms  DeleteObjects: 0.184700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1708.002372 seconds.
+  path: Assets/Dungeon Knight/items/CoinAniamtion.png
+  artifactKey: Guid(b00d63a5ff48b8640a830690b4a147c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/CoinAniamtion.png using Guid(b00d63a5ff48b8640a830690b4a147c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c997d4846dc409b340ad7b161f3b8e7') in 0.373903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 12.753926 seconds.
+  path: Assets/Dungeon Knight/items/Coin.anim
+  artifactKey: Guid(9cdc95f57ef2d4a4b94349a4fa7c40bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/Coin.anim using Guid(9cdc95f57ef2d4a4b94349a4fa7c40bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d50990ca0fc03182168061bad5f09e') in 0.003643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.436947 seconds.
+  path: Assets/Dungeon Knight/items/CoinAniamtion_0.controller
+  artifactKey: Guid(c4babad0a9350184da749ac7c1359f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/CoinAniamtion_0.controller using Guid(c4babad0a9350184da749ac7c1359f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20bec8edbafe78d447508fdedb4f947') in 0.015954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 302.529386 seconds.
+  path: Assets/Dungeon Knight/items
+  artifactKey: Guid(31d0b8639503450469bf1d0f49919366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items using Guid(31d0b8639503450469bf1d0f49919366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165a3a8d37f6e804fbad8ae96153e748') in 0.004059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.351921 seconds.
+  path: Assets/Dungeon Knight/items/Coins
+  artifactKey: Guid(0e3adee22e8a6494c9e0fe2bd0eee476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/Coins using Guid(0e3adee22e8a6494c9e0fe2bd0eee476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd049719837c6b75b7e2690cab330d5d') in 0.002496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.565221 seconds.
+  path: Assets/Dungeon Knight/items/chest
+  artifactKey: Guid(72fa74efc62b12549be94ba378613c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/chest using Guid(72fa74efc62b12549be94ba378613c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365667123f156be4b59cf8fed4866c1e') in 0.003478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.436294 seconds.
+  path: Assets/Dungeon Knight/items/chest/chest.png
+  artifactKey: Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/chest/chest.png using Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365978f3c86749119c6e92aed86fdf38') in 0.036229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.030864 seconds.
+  path: Assets/Dungeon Knight/items/chest/chest.png
+  artifactKey: Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/items/chest/chest.png using Guid(2236dad284e169443962c42f32e84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4c19dc4108095f08defef043109592') in 0.042019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.268211 seconds.
+  path: Assets/Dungeon Knight/spritesheets
+  artifactKey: Guid(d5670a69d3af6a54d90ffc5f9b186e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets using Guid(d5670a69d3af6a54d90ffc5f9b186e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ca0134fc3db83f4c2bb05f7c20de9d') in 0.001924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.660653 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest.png
+  artifactKey: Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest.png using Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff1bd9fc0214ab1979f784710009592') in 0.067164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Dungeon Knight/spritesheets/key.png
+  artifactKey: Guid(82748e60589e35d439c8ceb2b88ced8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/key.png using Guid(82748e60589e35d439c8ceb2b88ced8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4da98a28f27a33f6e686f3b07555abe') in 0.066654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Dungeon Knight/spritesheets/gem.png
+  artifactKey: Guid(05ce5417c048bbb40bfaf2469ea56edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/gem.png using Guid(05ce5417c048bbb40bfaf2469ea56edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751624867c848915361f4e936c04105') in 0.108246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Dungeon Knight/spritesheets/slime_red.png
+  artifactKey: Guid(16025668a9739d84fabe27212c6fd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/slime_red.png using Guid(16025668a9739d84fabe27212c6fd409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b815f33626f3ad4bd17ebd327eacf2') in 0.065684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Dungeon Knight/spritesheets/explode.png
+  artifactKey: Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/explode.png using Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78539ffa7626c576f9f74bcaf64f516') in 0.058970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Dungeon Knight/spritesheets/slime.png
+  artifactKey: Guid(ddd1eaa56b5b0ac4aa8a1a6516733258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/slime.png using Guid(ddd1eaa56b5b0ac4aa8a1a6516733258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b6c74ad233137df9389c512bc5efd') in 0.071265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dungeon Knight/spritesheets/wing_demon.png
+  artifactKey: Guid(48eb8bd7e511b1b4aa160e2a32d5978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/wing_demon.png using Guid(48eb8bd7e511b1b4aa160e2a32d5978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c61ea0f3027df68e0c6c8a35fa99ee') in 0.074526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Dungeon Knight/spritesheets/slime_blue.png
+  artifactKey: Guid(b6ae38d3b37d8c7449f201a566c41099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/slime_blue.png using Guid(b6ae38d3b37d8c7449f201a566c41099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f34cd1a0ad5a2943aa826377e046a9') in 0.088339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight_anims.png
+  artifactKey: Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight_anims.png using Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca8e97e4a4235b8b782698cb21edb77') in 0.064235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.254070 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest
+  artifactKey: Guid(fb23fc21783aa6e439c7a3649701b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest using Guid(fb23fc21783aa6e439c7a3649701b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02d0ea358d857ca8ce71974e54336ec') in 0.002353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.907639 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/chest.png
+  artifactKey: Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/chest.png using Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28fa013eb6cf1bf351e369f8fb46019') in 0.059393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.048407 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/chest.png
+  artifactKey: Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/chest.png using Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41308487b2b82218329c796bb4719e50') in 0.135890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.454382 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/chest.png
+  artifactKey: Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/chest.png using Guid(7bd805dcd8ce6774ea4949686f21b524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e6d5d15dfdcd52d0d56c83c3819150') in 0.065220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 63.878189 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/chest_0.controller
+  artifactKey: Guid(b879b30baa6450d4e98277dba209c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/chest_0.controller using Guid(b879b30baa6450d4e98277dba209c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed5c9cfa06d969d58a5be5c1480cfe') in 0.004298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.086568 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/Chest.anim
+  artifactKey: Guid(f09e4a78ba511bb48a5fe1e00e07d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/Chest.anim using Guid(f09e4a78ba511bb48a5fe1e00e07d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98154e5838202a42f1053353daeb44a6') in 0.003188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 73.533844 seconds.
+  path: Assets/Dungeon Knight/spritesheets/chest/Chest.anim
+  artifactKey: Guid(f09e4a78ba511bb48a5fe1e00e07d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/chest/Chest.anim using Guid(f09e4a78ba511bb48a5fe1e00e07d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e53b5708d097e8a2617ffbcf9a9d8d') in 0.004060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.487057 seconds.
+  path: Assets/Dungeon Knight/spritesheets/explode
+  artifactKey: Guid(76d2150716aec8f428a161ae76958291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/explode using Guid(76d2150716aec8f428a161ae76958291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4f0c685ee9bd6150794899e94d57c') in 0.001460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.917535 seconds.
+  path: Assets/Dungeon Knight/spritesheets/explode/explode.png
+  artifactKey: Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/explode/explode.png using Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeb589fa3148c0da2addc746132b044') in 0.081850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.814660 seconds.
+  path: Assets/Dungeon Knight/spritesheets/explode/explode.png
+  artifactKey: Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/explode/explode.png using Guid(f1b41a689e56571429904611fdc8d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520fae318779e2f12133aa64a4d13e1f') in 0.065700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 32.533386 seconds.
+  path: Assets/Dungeon Knight/spritesheets/explode/Explode.anim
+  artifactKey: Guid(d1407206ab319964b8f0546add1e1a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/explode/Explode.anim using Guid(d1407206ab319964b8f0546add1e1a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f81bd226d80c7464cf1ef28122be59f') in 0.003994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 68.417062 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight
+  artifactKey: Guid(be9c0af17b82270428da03d1633fd4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight using Guid(be9c0af17b82270428da03d1633fd4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17d3e79079cc285c096b8c98ce1c127') in 0.001356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.225901 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/knight_anims.png
+  artifactKey: Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/knight_anims.png using Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d1fbf9f62921c71a586358020dba73') in 0.299404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 5.425156 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/knight_anims.png
+  artifactKey: Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/knight_anims.png using Guid(7781a737186224d4a8e58d26026af04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0414c5a074f4ab0dfdffce6a6d240747') in 0.326759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 41.532405 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Player.anim
+  artifactKey: Guid(ba7116d2fa495994fb27be1a78117fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Player.anim using Guid(ba7116d2fa495994fb27be1a78117fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e7ee1f3b99bf59c9dacfb966227ea1') in 0.003556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.303231 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/knight_anims_0.controller
+  artifactKey: Guid(faad64f22e8997a48bd7a7b057efaa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/knight_anims_0.controller using Guid(faad64f22e8997a48bd7a7b057efaa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eb303bf3eda725cf4f49011481ccde') in 0.002995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 92.569230 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/New Folder
+  artifactKey: Guid(10dda923a50ff214d9776f423edc806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/New Folder using Guid(10dda923a50ff214d9776f423edc806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc11ccad6b03e1bf5f90443899ee8fa') in 0.003118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.034489 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Backward
+  artifactKey: Guid(8605beaf75c780a44b060fc636021ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Backward using Guid(8605beaf75c780a44b060fc636021ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6981efe6901a9c47d65da3977ff8f917') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.914448 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Backward/Backwards.anim
+  artifactKey: Guid(7265261fe5dc2474fb3cf996f169fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Backward/Backwards.anim using Guid(7265261fe5dc2474fb3cf996f169fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb636c28c9148012a3a791e85715633b') in 0.003789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.438303 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Forward
+  artifactKey: Guid(1be3241f529c76741925c7a8759ae71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Forward using Guid(1be3241f529c76741925c7a8759ae71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6d679ad3abb92f727e27ea6806aab8') in 0.001407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.878096 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Forward/Forward.anim
+  artifactKey: Guid(20c69a395f307294aa944cb0e62e379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Forward/Forward.anim using Guid(20c69a395f307294aa944cb0e62e379a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e1c79dc862979609d151b600cb5e9') in 0.002563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.023 seconds
+Refreshing native plugins compatible for Editor in 36.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.499 seconds
+Domain Reload Profiling: 6514ms
+	BeginReloadAssembly (432ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (145ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (2290ms)
+		LoadAssemblies (874ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1629ms)
+			TypeCache.Refresh (1595ms)
+				TypeCache.ScanAssembly (1548ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 39.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3944.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 7.566900 ms (FindLiveObjects: 0.475800 ms CreateObjectMapping: 0.254700 ms MarkObjects: 6.740600 ms  DeleteObjects: 0.094000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 354.333657 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/Forward.anim
+  artifactKey: Guid(3ed70830e6eba8c4c9026ebcaae95fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/Forward.anim using Guid(3ed70830e6eba8c4c9026ebcaae95fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b89522be11620199a938c474401ca1') in 0.041893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 326.753923 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9952a258fdf1f2f4796b1e10008ab123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9952a258fdf1f2f4796b1e10008ab123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee4ccddd4fecec9510818ec4f3314b') in 0.001991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.883856 seconds.
+  path: Assets/Dungeon Knight/tile
+  artifactKey: Guid(e9eab79981a0c36478fdb7291fd38435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile using Guid(e9eab79981a0c36478fdb7291fd38435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e281264c19624a68e0b4989483b0acc') in 0.001429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088044 seconds.
+  path: Assets/Dungeon Knight/tile/lava.png
+  artifactKey: Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile/lava.png using Guid(7061d9db00178df4fbe7908ea1775aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24d588532466bbea499990e7e28be1f') in 0.232162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Dungeon Knight/tile/wall_1piece.png
+  artifactKey: Guid(d56d34ae5f0e6504db3b090d7d094a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile/wall_1piece.png using Guid(d56d34ae5f0e6504db3b090d7d094a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f519e371544146412cec955cd4dab66e') in 0.056638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Dungeon Knight/tile/wall_main.png
+  artifactKey: Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile/wall_main.png using Guid(8f1d37802c6e80a48a5b59a0152ad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf54627d91c1ffbe9753c62479de6e06') in 0.065783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dungeon Knight/tile/stone_tile.png
+  artifactKey: Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile/stone_tile.png using Guid(21ab124d6d4f8ef4fac18029019dc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5586a8f9569d7cc3668dd4f01c178f') in 0.101228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Dungeon Knight/tile/lowtile.png
+  artifactKey: Guid(b4b052fd847743c4b87786c93d193cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/tile/lowtile.png using Guid(b4b052fd847743c4b87786c93d193cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312952f25447af3bab47766324f1124f') in 0.054190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1198.550723 seconds.
+  path: Assets/Dungeon Knight/spritesheets/knight/knight_anims_0.controller
+  artifactKey: Guid(f6516842b7028a945b54a149bbdd27c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Knight/spritesheets/knight/knight_anims_0.controller using Guid(f6516842b7028a945b54a149bbdd27c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1a6636d252b625f21e67c4105ce74f') in 0.024723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.354 seconds
+Refreshing native plugins compatible for Editor in 33.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.694 seconds
+Domain Reload Profiling: 9038ms
+	BeginReloadAssembly (794ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (298ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (2196ms)
+		LoadAssemblies (1241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1258ms)
+			TypeCache.Refresh (1227ms)
+				TypeCache.ScanAssembly (1093ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (5695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (915ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 54.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3949.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 12.506400 ms (FindLiveObjects: 1.245900 ms CreateObjectMapping: 0.547100 ms MarkObjects: 10.613400 ms  DeleteObjects: 0.097800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.246 seconds
+Refreshing native plugins compatible for Editor in 22.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.338 seconds
+Domain Reload Profiling: 6576ms
+	BeginReloadAssembly (447ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (2504ms)
+		LoadAssemblies (909ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1797ms)
+			TypeCache.Refresh (1782ms)
+				TypeCache.ScanAssembly (1737ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3339ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (836ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 12.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3952.
+Memory consumption went from 126.3 MB to 126.3 MB.
+Total: 6.326200 ms (FindLiveObjects: 0.569700 ms CreateObjectMapping: 0.382200 ms MarkObjects: 5.308400 ms  DeleteObjects: 0.064400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 896.706852 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.446697 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabc1ed12614e3a170143bff02a1ac06') in 0.001611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.036433 seconds.
+  path: Assets/Script
+  artifactKey: Guid(c2343f042f3f5cb409a3502efe6d2893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(c2343f042f3f5cb409a3502efe6d2893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c7268701582437e8fceae532cd1afd') in 0.003627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.243 seconds
+Refreshing native plugins compatible for Editor in 22.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.855 seconds
+Domain Reload Profiling: 22941ms
+	BeginReloadAssembly (4719ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (521ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1092ms)
+	RebuildCommonClasses (632ms)
+	RebuildNativeTypeToScriptingClass (317ms)
+	initialDomainReloadingComplete (1009ms)
+	LoadAllAssembliesAndSetupDomain (5408ms)
+		LoadAssemblies (5131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2864ms)
+			TypeCache.Refresh (2820ms)
+				TypeCache.ScanAssembly (2761ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (10856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (580ms)
+			ProcessInitializeOnLoadAttributes (1690ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 8.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.3 KB). Loaded Objects now: 3956.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 4.897300 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.235200 ms MarkObjects: 4.246700 ms  DeleteObjects: 0.061100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.042591 seconds.
+  path: Assets/Script/NewBehaviourScript.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NewBehaviourScript.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b48a28437af53a6faf81102f465b1cf') in 0.002456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.657945 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9290a542c27ef94285857dc059da4') in 0.002104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.005 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.210 seconds
+Domain Reload Profiling: 4194ms
+	BeginReloadAssembly (416ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (104ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (1227ms)
+		LoadAssemblies (908ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (529ms)
+			TypeCache.Refresh (516ms)
+				TypeCache.ScanAssembly (495ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1072ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (776ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (73ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 35.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3959.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 4.978000 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.450500 ms MarkObjects: 4.094300 ms  DeleteObjects: 0.059200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.754614 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26241fa00ea0ca00bcab260fde720c0c') in 0.003518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.075 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.838 seconds
+Domain Reload Profiling: 3877ms
+	BeginReloadAssembly (446ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (232ms)
+	LoadAllAssembliesAndSetupDomain (1199ms)
+		LoadAssemblies (875ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (531ms)
+				TypeCache.ScanAssembly (511ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 18.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (31.6 KB). Loaded Objects now: 3961.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 4.422900 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.269200 ms MarkObjects: 3.719100 ms  DeleteObjects: 0.063400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.678803 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5278cd78e5b539302f5088056b05182d') in 0.098182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.877 seconds
+Refreshing native plugins compatible for Editor in 19.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.920 seconds
+Domain Reload Profiling: 7787ms
+	BeginReloadAssembly (434ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (2168ms)
+		LoadAssemblies (830ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1540ms)
+			TypeCache.Refresh (1478ms)
+				TypeCache.ScanAssembly (1442ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (4921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (48ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (396ms)
+			ProcessInitializeOnLoadAttributes (1445ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 84.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3965.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 10.830300 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.314500 ms MarkObjects: 9.938800 ms  DeleteObjects: 0.096300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.200596 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(09b5ea23429581c4b9b31c77eb1fc25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1b1afb7580cac6bacee055095552e6') in 0.005406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.106 seconds
+Refreshing native plugins compatible for Editor in 17.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.109 seconds
+Domain Reload Profiling: 4213ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (143ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1406ms)
+		LoadAssemblies (653ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (953ms)
+			TypeCache.Refresh (927ms)
+				TypeCache.ScanAssembly (888ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 13.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3968.
+Memory consumption went from 126.1 MB to 126.1 MB.
+Total: 5.603500 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.225700 ms MarkObjects: 4.975100 ms  DeleteObjects: 0.057600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
